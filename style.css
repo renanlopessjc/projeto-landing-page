@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';    
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    /*padding- é um espaçamento da imagem até a margem (uma caixa dentro da margem)*/
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-color:#EAECE5;
+
+    /*Display grid - Define o elemento como um container de grid.*/
+    display: grid;
+
+    /*Grid-auto-flow: Define como os elementos são organizados em um grid. Ex: column*/
+    grid-auto-flow: column ;
+
+    /*Colums: Define o número de colunas no grid.*/
+    /*Colums: auto - A organização das colunas se da automaticamente.*/
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+
+#textovideo{
+    color: #247BA0;
+    
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+    
+}
+
+#titulo-carrossel{
+    color: #EAECE5;
+    text-align: center;     
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#campo-formulario{
+    background-color: #FFF;
+    text-align: center;
+}
+
+#texto-campo-formulario{
+    font-size: 25px;
+    color: #383838;
+    margin-top: 20px;
+    
+}
+
+/*Vai pegar todos os inputs e aplicar uma estilização*/
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    /*Arredondamento dos campos*/
+    border-radius: 5px;
+    /*Estilizando margem inter do placeholder*/
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    /*Deixa a fonte mais grossa*/
+    font-weight: bolder;
+    cursor: pointer;    
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    /*Efeito sombra*/
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 55%;
+    /*Poiter- Faz o cursor ficar com mãozinha*/
+    cursor: pointer;
+}
+
+/*Hover - Faz editar efeitos aplicados quando o mouse estiver em cima do icone*/
+.seta:hover{
+    /*Faz o item saltar no eixo y*/
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
